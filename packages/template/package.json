@@ -1,0 +1,32 @@
+{
+  "name": "@cmtlyt/gcc-template",
+  "version": "0.0.1",
+  "description": "",
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc -w"
+  },
+  "keywords": [
+    "template"
+  ],
+  "author": {
+    "name": "cmtlyt",
+    "email": "cmtlyt@163.com"
+  },
+  "files": [
+    "dist"
+  ],
+  "homepage": "https://github.com/cmtlyt/gen-config-cli",
+  "bugs": {
+    "url": "https://github.com/cmtlyt/gen-config-cli/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cmtlyt/gen-config-cli.git",
+    "directory": "packages/template"
+  },
+  "license": "MIT"
+}

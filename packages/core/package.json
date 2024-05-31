@@ -1,0 +1,44 @@
+{
+  "name": "@cmtlyt/gen-config-cli",
+  "version": "0.0.1",
+  "description": "生成配置文件",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc -w"
+  },
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "@cmtlyt/utils": "workspace:../utils",
+    "@cmtlyt/template": "workspace:../template",
+    "commander": "^12.1.0"
+  },
+  "homepage": "https://github.com/cmtlyt/gen-config-cli",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cmtlyt/gen-config-cli.git",
+    "directory": "packages/core"
+  },
+  "bin": {
+    "gen-config": "./dist/index.js",
+    "gcc": "./dist/index.js"
+  },
+  "keywords": [
+    "generate",
+    "config",
+    "cmtlyt"
+  ],
+  "bugs": {
+    "url": "https://github.com/cmtlyt/gen-config-cli/issues"
+  },
+  "files": [
+    "dist",
+    "template"
+  ],
+  "author": {
+    "name": "cmtlyt",
+    "email": "cmtlyt@163.com"
+  },
+  "license": "MIT"
+}

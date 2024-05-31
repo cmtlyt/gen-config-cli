@@ -1,0 +1,13 @@
+{
+  "name": "example",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "init": "pnpm link ../packages/core",
+    "dispose": "pnpm unlink ../packages/core"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

@@ -1,0 +1,42 @@
+{
+  "name": "@cmtlyt/gen-config-cli",
+  "version": "0.0.1",
+  "description": "生成配置文件",
+  "main": "index.js",
+  "scripts": {
+    "prepare": "husky",
+    "build": "turbo build",
+    "dev": "turbo dev",
+    "lint": "eslint \"packages/**/*.{ts,js}\" --fix"
+  },
+  "keywords": [],
+  "author": {
+    "name": "cmtlyt",
+    "email": "cmtlyt@163.com"
+  },
+  "lint-staged": {
+    "*.{ts,js}": [
+      "npm run lint"
+    ]
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@commitlint/cli": "^19.3.0",
+    "@commitlint/config-conventional": "^19.2.2",
+    "@types/node": "^20.12.13",
+    "@types/prettier": "^3.0.0",
+    "@typescript-eslint/eslint-plugin": "^7.11.0",
+    "@typescript-eslint/parser": "^7.11.0",
+    "commitlint": "^19.3.0",
+    "eslint": "^8.57.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-import": "^2.29.1",
+    "eslint-plugin-prettier": "^5.1.3",
+    "globals": "^15.3.0",
+    "husky": "^9.0.11",
+    "lint-staged": "^15.2.5",
+    "prettier": "^3.2.5",
+    "turbo": "^1.13.3",
+    "typescript": "^5.4.5"
+  }
+}
